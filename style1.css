@@ -1,0 +1,427 @@
+
+*{
+    font-family: 'poppins',sans-serif;
+    
+}
+
+a{
+    text-decoration: none!important;
+}
+
+/***********************   
+        NAVBAR
+************************/
+
+nav{
+    font-family: 'Poppins', sans-serif;
+    background: #ffff!important;
+    box-shadow: 1px 1px 2px #4444;
+}
+
+nav .navbar-brand{
+    color: var(--bs-blue)!important;
+}
+
+.navbar-nav .nav-link{
+    font-size: 15px ;
+    padding-top: 15px ;
+    padding-bottom: 15px ;
+}
+
+.navbar-toggler{
+    border: 0!important;
+    outline: none!important;
+    padding: none!important;
+
+
+
+}
+
+.nav-link:hover{
+    border-bottom:2px solid var(--bs-blue) ;
+}
+/***********************   
+      CAROUSEL
+************************/
+
+.carousel-inner .carousel-item{
+    width: 100% ;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    
+
+}
+
+.carousel-inner .carousel-caption {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    top: 45%;
+    left: 0;
+    right: 0;
+    font-family: 'poppins',sans-serif;
+
+}
+
+/* .carousel-inner .carousel-caption {
+
+    color: white !important;
+
+} */
+
+
+
+ 
+ @keyframes slide-in {
+    100%{
+        transform: translateX(0%);
+    }
+ }
+ @keyframes slide-out {
+    100%{
+        transform: translateX(100%);
+    }
+ }
+ @keyframes txt-appearence {
+    100%{
+        color: rgb(255, 255, 255);
+    }
+ }
+
+.carousel-inner .carousel-caption {
+    font-size: 10px;
+    width: 80%;
+    margin: 0px auto 20px auto;
+    color: white !important;
+}
+
+@media(max-width:768px){
+
+    .carousel-inner .carousel-caption h2{
+        font-size: 39px;
+    }
+
+}
+
+
+@media(max-width:577px){
+
+    .carousel-inner .carousel-caption h2{
+        font-size: 28px;
+    }
+    .carousel-inner .carousel-caption p{
+        font-size: 13px;
+    }
+
+}
+
+.carousel-item img{
+    max-height: 1000px;
+}
+
+/***********************   
+      Section Presentation
+************************/
+
+.section-presentation{
+    color: white
+}
+.presentation{
+    border-radius: 25px;
+    background: var(--bs-blue);
+    padding: 2px;
+    width: 1300px;
+    height: 500px;
+    margin-left: 60px;
+    margin-top: 40px;
+    box-shadow: 10px 4px 8px 0 rgba(147, 147, 156, 0.2), 0 6px 20px 0 rgba(87, 70, 70, 0.19); ;
+
+}
+
+
+.presentation .lh-1{
+    color: white;
+}
+
+
+/***********************   
+      Section Actualité
+************************/
+
+.section-Actu{
+    background-color: whitesmoke;
+    border-radius: 20px; 
+    padding: 2px;
+    width: 1300px;
+    height: 1000px;
+    margin-top: 40px;
+    margin-left: 60px;
+    box-shadow: 10px 4px 8px 0 rgba(147, 147, 156, 0.2), 0 6px 20px 0 rgba(87, 70, 70, 0.19);  
+}
+
+.container-actu {
+    margin: 20px;
+    
+}
+.title{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom:30px ;
+    margin-top: 20px;
+    
+}
+.card-box{
+    
+    cursor: pointer;
+    transition: .4s;
+}
+
+.card-box h5{
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.card-box p{
+    font-size: 20px;
+    color: gray;
+    margin-left: 20px;
+}
+
+.card-box:hover{
+    background-color: var(--bs-blue);
+    border-radius: 5px;
+    color: white!important;
+
+}
+.card-box:hover p{
+
+    color: white!important;
+}
+
+.card-title{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+/***********************   
+      Section Sacrement
+************************/
+
+.sacrement{
+    border-radius: 25px;
+    background: var(--bs-blue);
+    padding: 2px;
+    width: 1300px;
+    height: 2000px;
+    margin-left: 60px;
+    margin-top: 40px;
+    box-shadow: 10px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.card-body{
+    background-color: var(--bs-blue);
+}
+
+.sacrement .ls{
+    text-align: right;
+    color: white;
+    margin-left: 350px;
+    margin-top: 70px;
+
+}
+/***********************   
+      Section horaire
+************************/
+
+.section-horaire{
+    background-color: whitesmoke;
+
+    border-radius: 20px;
+    padding: 2px;
+    width: 1300px;
+    height: 350px;
+    margin-top: 40px;
+    margin-left: 60px;
+    box-shadow: 10px 4px 8px 0 rgba(147, 147, 156, 0.2), 0 6px 20px 0 rgba(87, 70, 70, 0.19); 
+}
+
+/***********************   
+      Section offrande
+************************/
+.offrande{
+    border-radius: 20px;
+    padding: 2px;
+    width: 1300px;
+    height: 350px;
+    margin-top: 40px;
+    margin-left: 60px;
+    box-shadow: 10px 4px 8px 0 rgba(147, 147, 156, 0.2), 0 6px 20px 0 rgba(87, 70, 70, 0.19);
+   background: whitesmoke;
+  
+   
+
+}
+.middle{
+    
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top:100px ;
+
+    
+}
+.but{
+    
+    width: 270px;
+    height: 70px;    
+    font-size: 20px;
+    font-weight: bold;
+    transition: .4s linear;
+    position: relative;
+    cursor: pointer;
+
+
+}
+.btn_1{
+    background: none;
+    width: 270px;
+    height: 70px;
+    border: 2px solid #ff5100;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ff2f00;
+    transition: .4s linear;
+    position: relative;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin-right: 20px;
+}
+.btn_2{
+    text-transform: uppercase;
+    border: 2px solid #00ff51;
+    margin-right:20px ;
+    color: #00ff51;
+}
+
+.btn_3{
+    text-transform: uppercase;
+    border: 2px solid #fff200;
+    margin-right:20px ;
+    color: #fff200;
+}
+.btn_4{
+    text-transform: uppercase;
+    border: 2px solid #0F9DEA;
+    margin-right:20px ;
+    color: #0F9DEA;
+}
+
+.btn_1:hover{
+    
+        color: rgb(90, 12, 12);
+
+}
+.btn_2:hover{
+    
+    color: rgb(0, 96, 40);
+
+}
+.btn_3:hover{
+    
+    color: rgb(84, 76, 16);
+
+}
+.btn_4:hover{
+    
+    color: rgb(29, 5, 135);
+
+}
+.btn_1::before{
+    content: "";
+    position: relatives;
+    width: 0px;
+    height: 65px;
+    top: 0px;
+    left: 0px;
+    background-color: #000000;
+    z-index: -1;
+    transition: .4s linear;
+}
+.btn_1:hover::before{
+    width: 245px;
+}
+.imag{
+
+    width: 150px;
+    height: 150px;
+
+}
+.fait{
+    text-align: center;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+@media all and (max-width:1380px) and (max-height:1000px){
+    .section-actu  {
+        width:100%;
+        height:100%;
+        
+    }
+
+} 
+@media all and (max-width:1380px) and (max-height:1000px){
+    .presentation {
+        width:100%;
+        height:100%;
+        
+    }
+
+} 
+
+@media all and (max-width:1380px) and (max-height:1000px){
+    .section-horaire  {
+        width:100%;
+        height:100%;
+        
+    }
+
+} 
+@media all and (max-width:1380px) and (max-height:1000px){
+    .sacrement  {
+        width:100%;
+        height:100%;
+        
+    }
+
+} 
+@media all and (max-width:1380px) and (max-height:1000px){
+    .offrande  {
+        width:100%;
+        height:100%;
+        
+    }
+
+}
+
+.btn1{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(174, 205, 232);
+    border-radius: 70%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    cursor: pointer;
+}
+.icone{
+    width: 40px;
+}
